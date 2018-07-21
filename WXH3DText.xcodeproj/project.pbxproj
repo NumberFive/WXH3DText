@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3247E3298282CD463B44591 /* Pods_WXH3DText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5870C0381DA99B9A45F90ACE /* Pods_WXH3DText.framework */; };
+		E8E1B8FE210088F2008231F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E1B8FD210088F2008231F0 /* AppDelegate.m */; };
+		E8E1B900210088F2008231F0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E1B8FF210088F2008231F0 /* art.scnassets */; };
+		E8E1B903210088F2008231F0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E1B902210088F2008231F0 /* GameViewController.m */; };
+		E8E1B906210088F2008231F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E1B904210088F2008231F0 /* Main.storyboard */; };
+		E8E1B908210088F2008231F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E1B907210088F2008231F0 /* Assets.xcassets */; };
+		E8E1B90B210088F2008231F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E1B909210088F2008231F0 /* LaunchScreen.storyboard */; };
+		E8E1B90E210088F2008231F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E1B90D210088F2008231F0 /* main.m */; };
+		E8E1B9162101BF89008231F0 /* WXH3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E1B9152101BF89008231F0 /* WXH3DView.m */; };
+		E8E1B9192101BFFF008231F0 /* WXH3DText.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E1B9182101BFFF008231F0 /* WXH3DText.m */; };
+		E8E1B91B2101DEA8008231F0 /* tropical_beach.hdr in Resources */ = {isa = PBXBuildFile; fileRef = E8E1B91A2101DEA8008231F0 /* tropical_beach.hdr */; };
+		E8E1B91E2102C820008231F0 /* WXHBillboardNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E1B91D2102C820008231F0 /* WXHBillboardNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5870C0381DA99B9A45F90ACE /* Pods_WXH3DText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXH3DText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B863EE565EBC95436ED1F2AD /* Pods-WXH3DText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXH3DText.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXH3DText/Pods-WXH3DText.release.xcconfig"; sourceTree = "<group>"; };
+		E8E1B8F9210088F1008231F0 /* WXH3DText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXH3DText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E1B8FC210088F1008231F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8E1B8FD210088F2008231F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8E1B8FF210088F2008231F0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		E8E1B901210088F2008231F0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E8E1B902210088F2008231F0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E8E1B905210088F2008231F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8E1B907210088F2008231F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8E1B90A210088F2008231F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8E1B90C210088F2008231F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E1B90D210088F2008231F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E1B9142101BF89008231F0 /* WXH3DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXH3DView.h; sourceTree = "<group>"; };
+		E8E1B9152101BF89008231F0 /* WXH3DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXH3DView.m; sourceTree = "<group>"; };
+		E8E1B9172101BFFF008231F0 /* WXH3DText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXH3DText.h; sourceTree = "<group>"; };
+		E8E1B9182101BFFF008231F0 /* WXH3DText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXH3DText.m; sourceTree = "<group>"; };
+		E8E1B91A2101DEA8008231F0 /* tropical_beach.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = tropical_beach.hdr; sourceTree = "<group>"; };
+		E8E1B91C2102C820008231F0 /* WXHBillboardNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXHBillboardNode.h; sourceTree = "<group>"; };
+		E8E1B91D2102C820008231F0 /* WXHBillboardNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXHBillboardNode.m; sourceTree = "<group>"; };
+		F55C017B7B4B12AADBC5F107 /* Pods-WXH3DText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXH3DText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXH3DText/Pods-WXH3DText.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E1B8F6210088F1008231F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3247E3298282CD463B44591 /* Pods_WXH3DText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434F6C9D4CE02F24711A670B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55C017B7B4B12AADBC5F107 /* Pods-WXH3DText.debug.xcconfig */,
+				B863EE565EBC95436ED1F2AD /* Pods-WXH3DText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B72FD47974FB678B63F659B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5870C0381DA99B9A45F90ACE /* Pods_WXH3DText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E1B8F0210088F1008231F0 = {
+			isa = PBXGroup;
+			children = (
+				E8E1B8FB210088F1008231F0 /* WXH3DText */,
+				E8E1B8FA210088F1008231F0 /* Products */,
+				434F6C9D4CE02F24711A670B /* Pods */,
+				B72FD47974FB678B63F659B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E1B8FA210088F1008231F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E1B8F9210088F1008231F0 /* WXH3DText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E1B8FB210088F1008231F0 /* WXH3DText */ = {
+			isa = PBXGroup;
+			children = (
+				E8E1B8FC210088F1008231F0 /* AppDelegate.h */,
+				E8E1B8FD210088F2008231F0 /* AppDelegate.m */,
+				E8E1B8FF210088F2008231F0 /* art.scnassets */,
+				E8E1B901210088F2008231F0 /* GameViewController.h */,
+				E8E1B902210088F2008231F0 /* GameViewController.m */,
+				E8E1B9142101BF89008231F0 /* WXH3DView.h */,
+				E8E1B9152101BF89008231F0 /* WXH3DView.m */,
+				E8E1B9172101BFFF008231F0 /* WXH3DText.h */,
+				E8E1B9182101BFFF008231F0 /* WXH3DText.m */,
+				E8E1B91C2102C820008231F0 /* WXHBillboardNode.h */,
+				E8E1B91D2102C820008231F0 /* WXHBillboardNode.m */,
+				E8E1B91A2101DEA8008231F0 /* tropical_beach.hdr */,
+				E8E1B904210088F2008231F0 /* Main.storyboard */,
+				E8E1B907210088F2008231F0 /* Assets.xcassets */,
+				E8E1B909210088F2008231F0 /* LaunchScreen.storyboard */,
+				E8E1B90C210088F2008231F0 /* Info.plist */,
+				E8E1B90D210088F2008231F0 /* main.m */,
+			);
+			path = WXH3DText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E1B8F8210088F1008231F0 /* WXH3DText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E1B911210088F2008231F0 /* Build configuration list for PBXNativeTarget "WXH3DText" */;
+			buildPhases = (
+				1BA33B46454E7E7CFD15295B /* [CP] Check Pods Manifest.lock */,
+				E8E1B8F5210088F1008231F0 /* Sources */,
+				E8E1B8F6210088F1008231F0 /* Frameworks */,
+				E8E1B8F7210088F1008231F0 /* Resources */,
+				F6EF804E9E84CB6C80337A68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXH3DText;
+			productName = WXH3DText;
+			productReference = E8E1B8F9210088F1008231F0 /* WXH3DText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E1B8F1210088F1008231F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "伍小华";
+				TargetAttributes = {
+					E8E1B8F8210088F1008231F0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E8E1B8F4210088F1008231F0 /* Build configuration list for PBXProject "WXH3DText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E1B8F0210088F1008231F0;
+			productRefGroup = E8E1B8FA210088F1008231F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E1B8F8210088F1008231F0 /* WXH3DText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E1B8F7210088F1008231F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E1B900210088F2008231F0 /* art.scnassets in Resources */,
+				E8E1B90B210088F2008231F0 /* LaunchScreen.storyboard in Resources */,
+				E8E1B91B2101DEA8008231F0 /* tropical_beach.hdr in Resources */,
+				E8E1B908210088F2008231F0 /* Assets.xcassets in Resources */,
+				E8E1B906210088F2008231F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA33B46454E7E7CFD15295B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXH3DText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EF804E9E84CB6C80337A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WXH3DText/Pods-WXH3DText-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXH3DText/Pods-WXH3DText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E1B8F5210088F1008231F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E1B903210088F2008231F0 /* GameViewController.m in Sources */,
+				E8E1B90E210088F2008231F0 /* main.m in Sources */,
+				E8E1B9192101BFFF008231F0 /* WXH3DText.m in Sources */,
+				E8E1B91E2102C820008231F0 /* WXHBillboardNode.m in Sources */,
+				E8E1B8FE210088F2008231F0 /* AppDelegate.m in Sources */,
+				E8E1B9162101BF89008231F0 /* WXH3DView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8E1B904210088F2008231F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E1B905210088F2008231F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8E1B909210088F2008231F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E1B90A210088F2008231F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E1B90F210088F2008231F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8E1B910210088F2008231F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E1B912210088F2008231F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55C017B7B4B12AADBC5F107 /* Pods-WXH3DText.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DGDHB63N;
+				INFOPLIST_FILE = WXH3DText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinemi.WXH3DText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E1B913210088F2008231F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B863EE565EBC95436ED1F2AD /* Pods-WXH3DText.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DGDHB63N;
+				INFOPLIST_FILE = WXH3DText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinemi.WXH3DText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E1B8F4210088F1008231F0 /* Build configuration list for PBXProject "WXH3DText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E1B90F210088F2008231F0 /* Debug */,
+				E8E1B910210088F2008231F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E1B911210088F2008231F0 /* Build configuration list for PBXNativeTarget "WXH3DText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E1B912210088F2008231F0 /* Debug */,
+				E8E1B913210088F2008231F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E1B8F1210088F1008231F0 /* Project object */;
+}
